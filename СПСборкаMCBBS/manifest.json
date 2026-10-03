@@ -1,0 +1,18 @@
+{
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "СПСборка",
+  "version": "3.0",
+  "author": "Valverde_Ball",
+  "overrides": "overrides",
+  "minecraft": {
+    "version": "1.21.1",
+    "modLoaders": [
+      {
+        "id": "neoforge-21.1.252",
+        "primary": true
+      }
+    ]
+  },
+  "files": []
+}

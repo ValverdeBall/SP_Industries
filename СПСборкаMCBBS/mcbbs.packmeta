@@ -1,0 +1,988 @@
+{
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 2,
+  "name": "СПСборка",
+  "version": "3.0",
+  "author": "Valverde_Ball",
+  "description": "A fun all-rounded Create based ModPack!",
+  "url": "",
+  "forceUpdate": false,
+  "origins": [],
+  "addons": [
+    {
+      "id": "game",
+      "version": "1.21.1"
+    },
+    {
+      "id": "neoforge",
+      "version": "21.1.252"
+    }
+  ],
+  "libraries": [],
+  "files": [
+    {
+      "force": true,
+      "path": ".mixin.out/class/com/simibubi/create/content/kinetics/belt/BeltBlock.class",
+      "hash": "d1917c69db0cf9fd053eabd884beb53507072128"
+    },
+    {
+      "force": true,
+      "path": ".mixin.out/class/com/simibubi/create/content/kinetics/belt/BeltBlockEntity.class",
+      "hash": "710df10706a385f7a2c9479907720a85a799847f"
+    },
+    {
+      "force": true,
+      "path": ".mixin.out/class/com/simibubi/create/content/kinetics/crusher/CrushingWheelBlock.class",
+      "hash": "6f45eb3d32448f002436e1cf4526c4d6b0c06eac"
+    },
+    {
+      "force": true,
+      "path": ".mixin.out/class/com/simibubi/create/content/kinetics/crusher/CrushingWheelControllerBlock.class",
+      "hash": "16ec18c987fba14899e8a22e3d69af046b21e867"
+    },
+    {
+      "force": true,
+      "path": ".mixin.out/class/com/simibubi/create/content/trains/display/FlapDisplayBlock.class",
+      "hash": "a1f525f2d58ab0503b74552be0e3d8dc31fc3808"
+    },
+    {
+      "force": true,
+      "path": ".mixin.out/class/com/simibubi/create/content/trains/display/FlapDisplayBlockEntity.class",
+      "hash": "f0cbd2f35002438f1baec080916784946a4688ad"
+    },
+    {
+      "force": true,
+      "path": "config/better_lib/common.json",
+      "hash": "6a944720e98e589f7b03fea417e65e180e1d3794"
+    },
+    {
+      "force": true,
+      "path": "config/create_better_villagers/common.json5",
+      "hash": "d071373d602940f24dae3a41f1c6a19eeb750d26"
+    },
+    {
+      "force": true,
+      "path": "config/jade/hide-blocks.json",
+      "hash": "a503776a467ca75d97916f99bf665dbf64a521a9"
+    },
+    {
+      "force": true,
+      "path": "config/jade/hide-entities.json",
+      "hash": "ef2152a130cc5ff42903c76e69c3e4279d94b9e7"
+    },
+    {
+      "force": true,
+      "path": "config/jade/jade.json",
+      "hash": "ae3ef97881081e510963e5d173907f9488880e13"
+    },
+    {
+      "force": true,
+      "path": "config/jade/plugins.json",
+      "hash": "c3f39c9f30969d93fc2b4784fd97c4b8d2fdb83e"
+    },
+    {
+      "force": true,
+      "path": "config/jade/sort-order.json",
+      "hash": "a34568399880664e4a97e6fb8b15c04aced4e44f"
+    },
+    {
+      "force": true,
+      "path": "config/jei/client/default/jei-client.ini",
+      "hash": "3b24ecddcb5f1cd8288859098fa51236bd661e89"
+    },
+    {
+      "force": true,
+      "path": "config/jei/client/default/jei-colors.ini",
+      "hash": "a0b5388f559355560719adc93408da864a72d3e8"
+    },
+    {
+      "force": true,
+      "path": "config/jei/client/default/jei-debug.ini",
+      "hash": "21114b8d222eb2a62d43404e1496664037119b8d"
+    },
+    {
+      "force": true,
+      "path": "config/jei/client/default/jei-mod-id-format.ini",
+      "hash": "a78ca513a5da04416aff948ed306253b15a2710a"
+    },
+    {
+      "force": true,
+      "path": "config/konkrete/locals/de_de.local",
+      "hash": "02adaf2602f1ba03a9352db3d10a6fac3a02aea5"
+    },
+    {
+      "force": true,
+      "path": "config/konkrete/locals/en_us.local",
+      "hash": "42badc338e767559db38a67bd3e8020a92000e56"
+    },
+    {
+      "force": true,
+      "path": "config/konkrete/locals/pl_pl.local",
+      "hash": "adf2ded54b4952ca83af26a1217e2c5db8ac1429"
+    },
+    {
+      "force": true,
+      "path": "config/konkrete/locals/pt_br.local",
+      "hash": "9c324fb4d33106366e6cbb5400c8c34f11539d34"
+    },
+    {
+      "force": true,
+      "path": "config/mezz_config/client/default/settings.ini",
+      "hash": "1f22cd48de02f98b8deda413d9f51a9b520e787c"
+    },
+    {
+      "force": true,
+      "path": "config/underground_village/common.json",
+      "hash": "df189b220dff101e8506b535b441e4381ee8a1ef"
+    },
+    {
+      "force": true,
+      "path": "config/xaero/lib/profiles/default.cfg",
+      "hash": "253bac0f5181c8db8e488832c46a8d40018650cf"
+    },
+    {
+      "force": true,
+      "path": "config/xaero/lib/server_profiles/default.cfg",
+      "hash": "8efdb5a6c4f4f41a36b531d54592321012491fb2"
+    },
+    {
+      "force": true,
+      "path": "config/xaero/lib/client.cfg",
+      "hash": "45cccfb3eb8a7a784bd4c29539e5558445f90bcf"
+    },
+    {
+      "force": true,
+      "path": "config/xaero/lib/common.cfg",
+      "hash": "8ae8d6ea0330bec2c0db28b109a12443708f1e7b"
+    },
+    {
+      "force": true,
+      "path": "config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
+      "hash": "2b8d12369471b57bfa6426254b2170bc8e6b3b88"
+    },
+    {
+      "force": true,
+      "path": "config/xaero/minimap/profiles/default.cfg",
+      "hash": "f2f6ac1fbc53ce3a08e002735fefd93bed2db8ab"
+    },
+    {
+      "force": true,
+      "path": "config/xaero/minimap/server_profiles/default.cfg",
+      "hash": "8efdb5a6c4f4f41a36b531d54592321012491fb2"
+    },
+    {
+      "force": true,
+      "path": "config/xaero/minimap/client.cfg",
+      "hash": "a18a4a75d6f033c35ecde56c14306760715a3a19"
+    },
+    {
+      "force": true,
+      "path": "config/xaero/minimap/common.cfg",
+      "hash": "de09f45b29b264432b80d34bb0c336bd552fb9ee"
+    },
+    {
+      "force": true,
+      "path": "config/xaero/minimap/default_radar_categories_client.json",
+      "hash": "acf65351d79fa0764141fcd9d895c0006892fd5c"
+    },
+    {
+      "force": true,
+      "path": "config/xaero/minimap/default_radar_categories_server.json",
+      "hash": "c247867b018103357eb4015059fe209cc562de51"
+    },
+    {
+      "force": true,
+      "path": "config/xaero/world-map/profiles/default.cfg",
+      "hash": "2f1680b1a14bf8cc756c5911c9b9f90e119a365e"
+    },
+    {
+      "force": true,
+      "path": "config/xaero/world-map/server_profiles/default.cfg",
+      "hash": "8efdb5a6c4f4f41a36b531d54592321012491fb2"
+    },
+    {
+      "force": true,
+      "path": "config/xaero/world-map/client.cfg",
+      "hash": "27b70648a1bccd0561ae94c0a1a978f283893dea"
+    },
+    {
+      "force": true,
+      "path": "config/xaero/world-map/common.cfg",
+      "hash": "c3c64f24c8d33940264147473e4a1c8ba5c219ff"
+    },
+    {
+      "force": true,
+      "path": "config/addon_gancho-common.toml",
+      "hash": "0f3b00f9b4a90dc9893c20bf27991b7a82894b46"
+    },
+    {
+      "force": true,
+      "path": "config/aeroworks-client.toml",
+      "hash": "75a0e65c73f4ee26a82aa1ae6aa606009db5e419"
+    },
+    {
+      "force": true,
+      "path": "config/aeroworks-common.toml",
+      "hash": "4c5cae33aa3dc393302de80bd3cd34af120fe57a"
+    },
+    {
+      "force": true,
+      "path": "config/azimuth-client.toml",
+      "hash": "7ca01c7625d72b4870090c5e23dbea100ae26afc"
+    },
+    {
+      "force": true,
+      "path": "config/azimuth-common.toml",
+      "hash": "114e5b6881639eba15e1fa91ad316c08f0a848c2"
+    },
+    {
+      "force": true,
+      "path": "config/bits_n_bobs-common.toml",
+      "hash": "045155da7c1275de84e65718f930fb3b2b243bab"
+    },
+    {
+      "force": true,
+      "path": "config/copycats-client.toml",
+      "hash": "ee4a884faae0308a657a13d740f1d765e30c642e"
+    },
+    {
+      "force": true,
+      "path": "config/copycats-common.toml",
+      "hash": "41c5b32a1d8b9b7cc2ae72f130e5c8199c46b488"
+    },
+    {
+      "force": true,
+      "path": "config/create-client.toml",
+      "hash": "498fc51a3ee2b9b97479c5da3761eac070e5be69"
+    },
+    {
+      "force": true,
+      "path": "config/create-common.toml",
+      "hash": "62ed6cc65a2043b7ddc4cb4f7c4f1d42855293de"
+    },
+    {
+      "force": true,
+      "path": "config/create-stuff-additions.toml",
+      "hash": "1b2c68f72955724f8377cb35c148a617b95eb851"
+    },
+    {
+      "force": true,
+      "path": "config/create_connected-common.toml",
+      "hash": "0db83d6d67c43bf777278f91ca949f962579f7c9"
+    },
+    {
+      "force": true,
+      "path": "config/create_dragons_plus-client.toml",
+      "hash": "fd12d12912472511b5f117d0c96cd9f7999f7084"
+    },
+    {
+      "force": true,
+      "path": "config/create_dragons_plus-common.toml",
+      "hash": "c25806d759072a5f2fa2d64e48fef7fc13f22617"
+    },
+    {
+      "force": true,
+      "path": "config/create_enchantment_industry-client.toml",
+      "hash": "8e85d31752eaa9e931fcab5427a7c1a3f86f6c30"
+    },
+    {
+      "force": true,
+      "path": "config/create_enchantment_industry-common.toml",
+      "hash": "812383ac9d6c3d7d3b6828596f9bfe32b96dcd27"
+    },
+    {
+      "force": true,
+      "path": "config/create_horse_decimation-client.toml",
+      "hash": "747c56dc8785b4d3c9eb669234929a2e892336dd"
+    },
+    {
+      "force": true,
+      "path": "config/create_hypertube-client.toml",
+      "hash": "010a5b3a5187a7ce1aee117b52a19c973555c101"
+    },
+    {
+      "force": true,
+      "path": "config/create_jetpack-client.toml",
+      "hash": "c5c79f148043a5ab1ec57bcdcb918dc49ecf25b8"
+    },
+    {
+      "force": true,
+      "path": "config/create_jetpack-common.toml",
+      "hash": "f03de4220af48030fdbba77952ddb5992ab53b02"
+    },
+    {
+      "force": true,
+      "path": "config/create_radar-client.toml",
+      "hash": "f8c176803f1fa813378da4423de2f4fa04184afa"
+    },
+    {
+      "force": true,
+      "path": "config/create_submarine-common.toml",
+      "hash": "a35f0d26499cb9ec31f106a54455d5ee78514747"
+    },
+    {
+      "force": true,
+      "path": "config/create_submarine_client_state.json",
+      "hash": "ce4db1362d910914762ec83ddb4d0b24d65c351e"
+    },
+    {
+      "force": true,
+      "path": "config/create_the_air_wars-client.toml",
+      "hash": "db3637bd2462e677afe23766d7c355ecb1474739"
+    },
+    {
+      "force": true,
+      "path": "config/create_the_air_wars-server.toml",
+      "hash": "2910f2c6125c505d7c24486a40ef6e569e3e06bc"
+    },
+    {
+      "force": true,
+      "path": "config/createbigcannons-client.toml",
+      "hash": "d850d2a039420a06416eeb19713b33a4c907b9ab"
+    },
+    {
+      "force": true,
+      "path": "config/createdieselgenerators-client.toml",
+      "hash": "93ba88a441b9e10723e5c5ba49f330bf280d4652"
+    },
+    {
+      "force": true,
+      "path": "config/createdieselgenerators-common.toml",
+      "hash": "254f5d4a342e70247ed62a7d980963d07dbe99e4"
+    },
+    {
+      "force": true,
+      "path": "config/createfood-client.toml",
+      "hash": "8585a2a190262ed6d2094f671f1db00dfedc407b"
+    },
+    {
+      "force": true,
+      "path": "config/createfood-common.toml",
+      "hash": "9b733b11b53f0a66c6e2522a111a6fd4d9b03748"
+    },
+    {
+      "force": true,
+      "path": "config/createnuclear-common.toml",
+      "hash": "7cdd7cc19d2ecbbe7c8d86b07503b0d05b05ae38"
+    },
+    {
+      "force": true,
+      "path": "config/createpropulsion-client.toml",
+      "hash": "ac866999f8d4ecd1eff17efd6a7eee2ee6032d6a"
+    },
+    {
+      "force": true,
+      "path": "config/createpropulsion-common.toml",
+      "hash": "4d14a8ea8f8038b86ff3b1c7f432aabb4e7b5fa2"
+    },
+    {
+      "force": true,
+      "path": "config/createrailwaysnavigator-client.toml",
+      "hash": "becc37008d6b07c557356bd623134ec21353d766"
+    },
+    {
+      "force": true,
+      "path": "config/createrailwaysnavigator-common.toml",
+      "hash": "cdf304b0898fb3fbbc107060c8f0db8c602b84e7"
+    },
+    {
+      "force": true,
+      "path": "config/createtweakedcontrollers-client.toml",
+      "hash": "f342b9a5338f2c45757f33bbac3778c00d189e81"
+    },
+    {
+      "force": true,
+      "path": "config/dndesires-client.toml",
+      "hash": "ac8cc06515c2d6324fafa8256a1b721428bc933b"
+    },
+    {
+      "force": true,
+      "path": "config/dragonlib-common.toml",
+      "hash": "3faf5cef1a2b2ccadb1eb9b8e70f97efb3b1e54e"
+    },
+    {
+      "force": true,
+      "path": "config/dragonlib-server.toml",
+      "hash": "3f6165e771731c29a8489a40417d822df93ef73c"
+    },
+    {
+      "force": true,
+      "path": "config/emi.css",
+      "hash": "ce0fedbfa2556c8c1f1e320eb82af032ba81e8c3"
+    },
+    {
+      "force": true,
+      "path": "config/farmersdelight-client.toml",
+      "hash": "376d9f84ec76953b4cd907387f4fc55069350250"
+    },
+    {
+      "force": true,
+      "path": "config/farmersdelight-common.toml",
+      "hash": "7600f1899a7704d0cc4f0a81f4694b8c47026bcf"
+    },
+    {
+      "force": true,
+      "path": "config/ferritecore-mixin.toml",
+      "hash": "a8af962ea8f0698377dba96a722ce21dedcde8cc"
+    },
+    {
+      "force": true,
+      "path": "config/flywheel-client.toml",
+      "hash": "186af33b18709c2a60dd27a2619ca585fefc306a"
+    },
+    {
+      "force": true,
+      "path": "config/fml.toml",
+      "hash": "5448b202d300702f6b654b522bbd2c39743702c0"
+    },
+    {
+      "force": true,
+      "path": "config/immediatelyfast.json",
+      "hash": "9005fdfb4eeaa64cf158b244b263aa5347d03db0"
+    },
+    {
+      "force": true,
+      "path": "config/jackpot-common.toml",
+      "hash": "17e890fc88d69a0572342bb9d13292f24e2629ce"
+    },
+    {
+      "force": true,
+      "path": "config/lithium.properties",
+      "hash": "38f2993a7d80d0a6a25eb6182bd6898af24a16eb"
+    },
+    {
+      "force": true,
+      "path": "config/lithostitched.json",
+      "hash": "25a9fbeb8f4983e718327cb08392e755e2730f95"
+    },
+    {
+      "force": true,
+      "path": "config/mechanical_botany-client.toml",
+      "hash": "be2f4365126a771a18d2a848ff2d69e95ea3cc95"
+    },
+    {
+      "force": true,
+      "path": "config/modernfix-common.toml",
+      "hash": "67d29a1db4c6d7d97b4912e5ef3aae34347d3e38"
+    },
+    {
+      "force": true,
+      "path": "config/modernfix-mixins.properties",
+      "hash": "363b263796d22b72e97e89072413e529bcd692ee"
+    },
+    {
+      "force": true,
+      "path": "config/moonlight-client.toml",
+      "hash": "19f7d0b2a4b6010de875446aa41d51734fb31b40"
+    },
+    {
+      "force": true,
+      "path": "config/moonlight-common.toml",
+      "hash": "4d66f0f9b463792e9ed36780928d349421ff9ab2"
+    },
+    {
+      "force": true,
+      "path": "config/mynethersdelight-common.toml",
+      "hash": "b6f2bb553bc9ed6312e0fa5258958a6486cac7d0"
+    },
+    {
+      "force": true,
+      "path": "config/neoforge-client.toml",
+      "hash": "90754349a7bc416f9242df9a24b821d8beccc15d"
+    },
+    {
+      "force": true,
+      "path": "config/neoforge-common.toml",
+      "hash": "2912b55694531e5ab90981a12f1844439d969e04"
+    },
+    {
+      "force": true,
+      "path": "config/ponder-client.toml",
+      "hash": "deddc6f67e212577af0151dd6e0ddf7830a65d3e"
+    },
+    {
+      "force": true,
+      "path": "config/powergrid-client.toml",
+      "hash": "49de848b853ce11604b2a9e12481325e10e90bc8"
+    },
+    {
+      "force": true,
+      "path": "config/powergrid-common.toml",
+      "hash": "f8f7260f3ccf0fd31dd1a4a51e02a2dbbbdace82"
+    },
+    {
+      "force": true,
+      "path": "config/railways-client.toml",
+      "hash": "265f95249de84c74a25cfb2b8dbaa76964e1ada4"
+    },
+    {
+      "force": true,
+      "path": "config/railways-common.toml",
+      "hash": "d53ad6bb85d5293ab80ee8c3983672f359084cd9"
+    },
+    {
+      "force": true,
+      "path": "config/sable-client.toml",
+      "hash": "e8f806b583ccda048e84a0bb6294e01968beea9e"
+    },
+    {
+      "force": true,
+      "path": "config/sable-common.toml",
+      "hash": "00dc7fcbb01ea87c7020307e5481e174977f4d79"
+    },
+    {
+      "force": true,
+      "path": "config/simulated-client.toml",
+      "hash": "5ecd38c0dc2dc7245bbbb7ad0187a1196f816d2f"
+    },
+    {
+      "force": true,
+      "path": "config/sliceanddice-client.toml",
+      "hash": "f77b038e492020549823f5ab5978858ff88a61a5"
+    },
+    {
+      "force": true,
+      "path": "config/sliceanddice-common.toml",
+      "hash": "a511f7e2fff2da3bf7263b288fb00725e3ad9697"
+    },
+    {
+      "force": true,
+      "path": "config/sodium-fingerprint.json",
+      "hash": "98a4c9074d7628f20d895a3ede9fc6aebecf74e0"
+    },
+    {
+      "force": true,
+      "path": "config/sodium-mixins.properties",
+      "hash": "5455463ee999b945c1cff8ae90f2b705e19fb86c"
+    },
+    {
+      "force": true,
+      "path": "config/sodium-options.json",
+      "hash": "f94c57d0a992e4201e71401c82e2de166bb9bd48"
+    },
+    {
+      "force": true,
+      "path": "config/splash.properties",
+      "hash": "b8bc792b4ef5b77b8a11e9b7f74737f1d58f5cf6"
+    },
+    {
+      "force": true,
+      "path": "config/submarine_hull.json",
+      "hash": "83b9075de801ffd7e9dd196d1d8c5db533b6c936"
+    },
+    {
+      "force": true,
+      "path": "config/terralith.json",
+      "hash": "e78e92ea51ed500453dbf8872da461c854e63569"
+    },
+    {
+      "force": true,
+      "path": "config/vista-client.toml",
+      "hash": "a8d51564ca6128336cee4d17851019baccf33dc7"
+    },
+    {
+      "force": true,
+      "path": "config/vista-common.toml",
+      "hash": "ef127c8a1010fbb6075e7137e1eb8247446e3dd7"
+    },
+    {
+      "force": true,
+      "path": "config/xaerohud.txt",
+      "hash": "7235e01cb97f766d1411ce97cdf65329297093c2"
+    },
+    {
+      "force": true,
+      "path": "config/xaeropatreon.txt",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "force": true,
+      "path": "crash-reports/crash-2026-10-02_23.58.55-fml.txt",
+      "hash": "adf13ce6f17a0dd842f7ff73ff11204a095d785c"
+    },
+    {
+      "force": true,
+      "path": "data/createfood_default_packs.txt",
+      "hash": "8027dc93a20adb576db5e3430547364a6e0b7071"
+    },
+    {
+      "force": true,
+      "path": "dynamic-resource-pack-cache/hash.txt",
+      "hash": "2ce5763eb0ca0ca038e81076c83868d4911891d2"
+    },
+    {
+      "force": true,
+      "path": "mods/CreateDragonsPlus-1.11.9.jar",
+      "hash": "67ffcb61207a7dbc6b1e70f0473ddbacb19d44eb"
+    },
+    {
+      "force": true,
+      "path": "mods/Design-n-Decor-1.21.1-2.2b.jar",
+      "hash": "ff5f0411a3d82e15d69b65617128f6d54e818e1b"
+    },
+    {
+      "force": true,
+      "path": "mods/DnDesires-1.21.1-2.3a-BETA.jar",
+      "hash": "72635119b4bcc49b050c50d6cbb1abb02bb3982a"
+    },
+    {
+      "force": true,
+      "path": "mods/FarmersDelight-1.21.1-1.3.4.jar",
+      "hash": "27675ddfcb8cc37e6ea1ab6c15051c7949d94657"
+    },
+    {
+      "force": true,
+      "path": "mods/ImmediatelyFast-NeoForge-1.6.14+1.21.1.jar",
+      "hash": "fee59af2f39c66d09c4c09f441c799e76af70f97"
+    },
+    {
+      "force": true,
+      "path": "mods/Incendium_1.21.x_v5.4.4.jar",
+      "hash": "40da6da25ec45c4d88447733255e4281b6f22fef"
+    },
+    {
+      "force": true,
+      "path": "mods/Jade-1.21.1-NeoForge-15.10.6.jar",
+      "hash": "88ee316e68900080b017f60c12162e2731924cf8"
+    },
+    {
+      "force": true,
+      "path": "mods/MyNethersDelight-1.21.1-1.10.4.1.jar",
+      "hash": "9c54439d65e77c7b4b711831138f81f3a849ff35"
+    },
+    {
+      "force": true,
+      "path": "mods/Terralith_1.21.1_v2.6.2_Neoforge.jar",
+      "hash": "d4a9fe71b841f70edfb4b280f9bf5c58e4a28224"
+    },
+    {
+      "force": true,
+      "path": "mods/VS-Sable-HoseConnectors-0.1.8-1.21.1.jar",
+      "hash": "39672703f570bca7290b75148c4091f9299fcfdf"
+    },
+    {
+      "force": true,
+      "path": "mods/aeroworks-1.5.0.jar",
+      "hash": "0dffcd74781e2f7d0495c4aad1165eb3473476ec"
+    },
+    {
+      "force": true,
+      "path": "mods/architectury-13.0.11-neoforge.jar",
+      "hash": "008656a0702801174b8ec245ed7aad1921d6e9f1"
+    },
+    {
+      "force": true,
+      "path": "mods/azimuth-1.4.9.jar",
+      "hash": "ee5ccc234597699595ad5214ad085c0a14edd94f"
+    },
+    {
+      "force": true,
+      "path": "mods/better_lib-neoforge-1.21.1-1.0.111.jar",
+      "hash": "92ff366f541a9df29c5744cbc647b32cb88f6802"
+    },
+    {
+      "force": true,
+      "path": "mods/bits_n_bobs-2.3.5.jar",
+      "hash": "50119ba6849f2b165ab692ab312dbe4867444ac0"
+    },
+    {
+      "force": true,
+      "path": "mods/cloth-config-15.0.140-neoforge.jar",
+      "hash": "c3e5733ba4503b102589a026000fd5ce0212f6f2"
+    },
+    {
+      "force": true,
+      "path": "mods/copycats-3.0.9+mc.1.21.1-neoforge.jar",
+      "hash": "74de17876c43f5f780bac478b9f9eb11e687b8d7"
+    },
+    {
+      "force": true,
+      "path": "mods/create-1.21.1-6.0.10.jar",
+      "hash": "0e97e49837bed766e6f28a4c95b04885d6acc353"
+    },
+    {
+      "force": true,
+      "path": "mods/create-aeronautics-bundled-1.21.1-1.3.2.jar",
+      "hash": "ddbe9cbc25e8f663218aa1e9fdfc4b99f0e11e4b"
+    },
+    {
+      "force": true,
+      "path": "mods/create-enchantment-industry-2.5.4.jar",
+      "hash": "929a1ff0329f0033329f8c22bef785b2a8c4e776"
+    },
+    {
+      "force": true,
+      "path": "mods/create-stuff-additions1.21.1_v2.1.4b.jar",
+      "hash": "246915560f74b92e0186c22da26be8995380c443"
+    },
+    {
+      "force": true,
+      "path": "mods/create_aeronautics_transmission_linkage-0.2.8.jar",
+      "hash": "bccaf90652905ae5f28dcc7e1134099d188ca020"
+    },
+    {
+      "force": true,
+      "path": "mods/create_better_villagers-1.3.2.jar",
+      "hash": "d84300d669089aa02a2611b7f0b9b397ad3e5413"
+    },
+    {
+      "force": true,
+      "path": "mods/create_connected-1.3.3-mc1.21.1.jar",
+      "hash": "96ae45fa44cd7028a31b9613cb672009e811b145"
+    },
+    {
+      "force": true,
+      "path": "mods/create_copper_and_zinc-2.0.0-neoforge-1.21.1.jar",
+      "hash": "de1f363ef0ec8aeb6a9dedc1f3d8b3e224400895"
+    },
+    {
+      "force": true,
+      "path": "mods/create_grappling_hooks-1.2.0.jar",
+      "hash": "4fadb1d2f58a416d747eaa6dd9bfc97fa70ba722"
+    },
+    {
+      "force": true,
+      "path": "mods/create_horse_decimation-1.1.2.jar",
+      "hash": "80bdb53cc700d67ca616b1bccc38d282c5430c3b"
+    },
+    {
+      "force": true,
+      "path": "mods/create_hypertube-0.6.0-NEOFORGE.jar",
+      "hash": "8004b4b3959364609906ea4d7bf409add879a222"
+    },
+    {
+      "force": true,
+      "path": "mods/create_jetpack-forge-5.2.1.jar",
+      "hash": "cbd949c62723d805c2ab019def6e6718c50037b8"
+    },
+    {
+      "force": true,
+      "path": "mods/create_radar-0.4.9.4-1.21.1.jar",
+      "hash": "9726fced4bf86c9e2c0ea09b35bc39ed3ac007b6"
+    },
+    {
+      "force": true,
+      "path": "mods/create_submarine-2.2.4.jar",
+      "hash": "fb4902c2ca3463ea3016efbae7011408eb008d89"
+    },
+    {
+      "force": true,
+      "path": "mods/create_the_air_wars-5.00.jar",
+      "hash": "d725b4b8cb2ef1de64ff7f593a8c0de06de6c1b9"
+    },
+    {
+      "force": true,
+      "path": "mods/create_tweaked_controllers-1.21.1-1.2.7.jar",
+      "hash": "6358da213d0eff982c3431a8d004a3e912f7957a"
+    },
+    {
+      "force": true,
+      "path": "mods/create_ultimate_factory-2.2.4-neoforge-1.21.1.jar",
+      "hash": "ed0ff71df9bfe3b66b97c51a2834031084300a65"
+    },
+    {
+      "force": true,
+      "path": "mods/create_winery-2.0.2-neoforge-1.21.1.jar",
+      "hash": "f6c40e927550c68c3091376d7279aa97c23cd2c2"
+    },
+    {
+      "force": true,
+      "path": "mods/createbacktanktrims-1.2.0.jar",
+      "hash": "b0db5ce7695dc5296be2366a83f375fb4c9ae58b"
+    },
+    {
+      "force": true,
+      "path": "mods/createbigcannons-5.11.7+mc.1.21.1.jar",
+      "hash": "c90ee0b2142e2c58d233e150cb3a24c7cb07eb2d"
+    },
+    {
+      "force": true,
+      "path": "mods/createdieselgenerators-1.21.1-1.3.15.jar",
+      "hash": "7f751dabfa83c141c1d13025cd16f06553ba459b"
+    },
+    {
+      "force": true,
+      "path": "mods/createfood-neoforge-1.21.1-3.0.0.jar",
+      "hash": "8cb5a2bf84c7ce28e0ca5815785da35d23fd6569"
+    },
+    {
+      "force": true,
+      "path": "mods/createnuclear-1.3.2-beta.3-neoforge.jar",
+      "hash": "c4349006fd07e614b0de3c5982d7f0d0a818c98c"
+    },
+    {
+      "force": true,
+      "path": "mods/createpropulsion-1.1.5.jar",
+      "hash": "928e9428ee92d07426c296b04a7fffb1e737e290"
+    },
+    {
+      "force": true,
+      "path": "mods/createrailwaysnavigator-neoforge-1.21.1-beta-0.10.0-C6.jar",
+      "hash": "bf0ff70b421fb6fdb899f21e8e2899bbc9bd5e33"
+    },
+    {
+      "force": true,
+      "path": "mods/dragonlib-neoforge-1.21.1-beta-3.0.28.jar",
+      "hash": "32ad20ba9a28629ecf47e0bfeb911f6c53bd1b7c"
+    },
+    {
+      "force": true,
+      "path": "mods/emi-1.1.24+1.21.1+neoforge.jar",
+      "hash": "3fd494b37027dfbc7f78414d7cbf251c9eb6738a"
+    },
+    {
+      "force": true,
+      "path": "mods/ferritecore-7.0.3-neoforge.jar",
+      "hash": "9563692efb708b6b568df27a01ec52f6311928ef"
+    },
+    {
+      "force": true,
+      "path": "mods/interiors-1.21.1-neoforge-0.6.1.jar",
+      "hash": "a558777ef4510da2f4d32ca3da6ac7384c9a9940"
+    },
+    {
+      "force": true,
+      "path": "mods/jackpot-1.0.9.jar",
+      "hash": "5eafe89b52c266e64e7b911731b42d9e1e26c00a"
+    },
+    {
+      "force": true,
+      "path": "mods/jei-1.21.1-neoforge-19.57.0.450.jar",
+      "hash": "129a0aa982cd520ef8a35abddf592dc4d5655bd9"
+    },
+    {
+      "force": true,
+      "path": "mods/justzoom_neoforge_2.1.0_MC_1.21.1.jar",
+      "hash": "328da50972fa693b8e6f337d4a9560d4a6170ac3"
+    },
+    {
+      "force": true,
+      "path": "mods/konkrete_neoforge_1.9.9_MC_1.21.jar",
+      "hash": "97771eb287d5ac7fe667d1df9493d5e54c8ca1fa"
+    },
+    {
+      "force": true,
+      "path": "mods/kotlinforforge-5.12.0-all.jar",
+      "hash": "d10d062caf1aad9aec82d7852f2fee1781735c1f"
+    },
+    {
+      "force": true,
+      "path": "mods/lithium-neoforge-0.15.4+mc1.21.1.jar",
+      "hash": "97212e45c963730bbfc7c44780df99317814c21b"
+    },
+    {
+      "force": true,
+      "path": "mods/lithostitched-1.8.0-neoforge-21.1.jar",
+      "hash": "fe7eb612a0fa0c41ce94d914162d298755bb25a3"
+    },
+    {
+      "force": true,
+      "path": "mods/mechanical_botany-1.1.3+1.21.1-neoforged.jar",
+      "hash": "62201ef027c7bfaffa8ea14e3d51a5ab5b88f345"
+    },
+    {
+      "force": true,
+      "path": "mods/mezz_config-1.21.1-neoforge-0.6.6-standalone.jar",
+      "hash": "ece9c53abe11d74f807afff505fcfed5a71a4129"
+    },
+    {
+      "force": true,
+      "path": "mods/modernfix-neoforge-5.27.24+mc1.21.1.jar",
+      "hash": "1fe7f8b4176e86507cc8ed5460b6acdd3dac5529"
+    },
+    {
+      "force": true,
+      "path": "mods/moonlight-1.21.1-3.7.0-neoforge.jar",
+      "hash": "3e909f886ffca21bbe03cce510c68da2e7165580"
+    },
+    {
+      "force": true,
+      "path": "mods/powergrid-mc1.21.1-0.6.2.jar",
+      "hash": "e09452dac8202e31f282149d45c49dcdb218bd54"
+    },
+    {
+      "force": true,
+      "path": "mods/railways-0.3.0-beta.2+neoforge-mc1.21.1.jar",
+      "hash": "82a28ce51fdbc583477d7ae7c4c94cc6d23ec2b4"
+    },
+    {
+      "force": true,
+      "path": "mods/ritchiesprojectilelib-2.1.2+mc.1.21.1-neoforge.jar",
+      "hash": "ec2e4996f8bee8714173e603e379fef8a6901765"
+    },
+    {
+      "force": true,
+      "path": "mods/sable-neoforge-1.21.1-2.0.5.jar",
+      "hash": "05f666e973d32baaaf405acb9bbed6615b909971"
+    },
+    {
+      "force": true,
+      "path": "mods/sliceanddice-4.3.4-neoforge.jar",
+      "hash": "bfcb12d13465caf6743f200fbd755b72705011e4"
+    },
+    {
+      "force": true,
+      "path": "mods/sodium-neoforge-0.8.13+mc1.21.1.jar",
+      "hash": "1757289be21ed18db5b0d90703fa3db1b2de5693"
+    },
+    {
+      "force": true,
+      "path": "mods/struts-1.3.1.jar",
+      "hash": "131663d29e0dd944e03299b35bda18aefacd1932"
+    },
+    {
+      "force": true,
+      "path": "mods/tracks_plus-1.0.6b7.jar",
+      "hash": "a1df1c19211ce8288e241dc8c3f9167694b20a8f"
+    },
+    {
+      "force": true,
+      "path": "mods/trading_floor-3.0.16.jar",
+      "hash": "7be6d8b24f3120fa6a2520c32a2e6c8c4254322c"
+    },
+    {
+      "force": true,
+      "path": "mods/underground_village-neoforge-1.21.1-2.0.jar",
+      "hash": "53e65e6e0be47e7ee23e5d52535a595b440a88d3"
+    },
+    {
+      "force": true,
+      "path": "mods/vista-1.21.1-5.5.7-neoforge.jar",
+      "hash": "29543f7d287f3927f04d06d376696970e4408123"
+    },
+    {
+      "force": true,
+      "path": "mods/xaerominimap-neoforge-1.21.1-26.5.0.jar",
+      "hash": "7553dddbe478d1c8c15198090217e723d27f79c4"
+    },
+    {
+      "force": true,
+      "path": "mods/xaeroworldmap-neoforge-1.21.1-1.46.0.jar",
+      "hash": "82b4ae6c0f2e13f02cbdc1325342909ed083fc24"
+    },
+    {
+      "force": true,
+      "path": "vista_ffmpeg_bin/staging/download-0.bin.part",
+      "hash": "b9245db5f42a59aa4bc84ec5d7f67d1b0c0b0e81"
+    },
+    {
+      "force": true,
+      "path": "log4j2.xml",
+      "hash": "053247da89125ab4654d89ac97858dc9244f0589"
+    },
+    {
+      "force": true,
+      "path": "vista_ffmpeg_sources.json",
+      "hash": "6cd905716274c60b7f35247d155007fe3fa5faa7"
+    }
+  ],
+  "settings": {
+    "install_mods": true,
+    "install_resourcepack": true
+  },
+  "launchInfo": {
+    "minMemory": 4096,
+    "launchArgument": [],
+    "javaArgument": []
+  }
+}
